@@ -8,7 +8,7 @@ def count_batteries_by_usage(cycles):
       l+=1
     elif x>=410 and x=<949:
       m+=1
-    else x>=950:
+    elif x>=950:
       h+=1
       
   return {
