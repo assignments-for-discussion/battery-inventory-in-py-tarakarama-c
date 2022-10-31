@@ -9,7 +9,7 @@ def count_batteries_by_usage(cycles):
     elif x>=410 and x=<949:
       m+=1
     else x>=950:
-      h+=10
+      h+=1
       
   return {
     "lowCount": l,
